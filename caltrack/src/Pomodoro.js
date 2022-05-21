@@ -7,9 +7,9 @@ import Up from './assets/up.png'
 import Down from './assets/down.png'
 
 function Pomodoro() {
-    const [displayTime, setDisplayTime] = React.useState(5)
-    const [breakTime, setBreakTime] = React.useState(4)
-    const [sessionTime, setSessionTime] = React.useState(5)
+    const [displayTime, setDisplayTime] = React.useState(25 * 60)
+    const [breakTime, setBreakTime] = React.useState(5 * 60)
+    const [sessionTime, setSessionTime] = React.useState(25 * 60)
     const [timerOn, setTimerOn] = React.useState(false)
     const [onBreak, setOnBreak] = React.useState(false)
     const [breakAudio, setBreakAudio] = React.useState(new Audio("./assets/ring.mp3"))
