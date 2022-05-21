@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+.pomodoro{
+    padding: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.pomodoro-timer{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    background-color: #F0F3F9;
+    border-radius: 33px;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.status{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px !important;
+    line-height: 62px;
+}
+
+.timer{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 167px;
+    padding: 1.5rem 0;
+}
+
+.start-stop{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.motivation{
+    margin: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
