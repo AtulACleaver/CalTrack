@@ -1,0 +1,6 @@
+.idea
+.gitattributes
+.gitignore
+.env
+.DS_Store
+CalTrack Backend/.env

@@ -1,0 +1,16 @@
+{
+  "name": "caltrack-backend",
+  "version": "1.0.0",
+  "description": "Track your time based on your Events in Google Calendar with CalTrack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atul Anand",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "googleapis": "^100.0.0",
+    "moment": "^2.29.3"
+  }
+}
