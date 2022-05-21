@@ -5,14 +5,36 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+.settings{
+    margin-right: 40px;
+    margin-top: -20px;
+    width: 35px;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+}
+
+.settings:hover{
+    animation: rotate 1s;
+}
+
+@keyframes rotate{
+    100% {transform: rotate(180deg);}
+}
+
+
 .pomodoro-timer{
     margin: auto;
     width: 50%;
     height: auto;
     background-color: #F0F3F9;
     border-radius: 33px;
-    text-align: center;
     padding: 4rem 0;
+    text-align: right;
 }
 
 .status{
@@ -20,6 +42,8 @@
     font-weight: 700;
     font-size: 48px !important;
     line-height: 62px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .timer{
@@ -27,14 +51,32 @@
     font-weight: 700;
     font-size: 128px;
     line-height: 167px;
-    padding: 1.5rem 0;
+    padding: .8rem 0 1.5rem;
+    text-align: center;
 }
 
-.start-stop{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+.start-stop-reset{
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.start{
+    width: 37px;
+    height: 37px;
+    padding: .6rem 0.5rem;
+}
+
+.stop{
+    width: 49px;
+    height: 49px;
+    padding: 0.3rem 0.5rem;
+}
+
+.reset{
+    width: 30px;
+    height: 30px;
+    padding: 0.9rem .5rem;
 }
 
 .motivation{
@@ -43,3 +85,41 @@
     font-weight: 700;
     font-size: 24px;
 }
+
+.sets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.length-sets{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.length-sets-heading{
+    font-size: 24px;
+
+}
+
+.time-sets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.up-arrow, .down-arrow{
+    width: 24px;
+    height: 24px;
+    user-select: none;
+    user-drag: none;
+}
+

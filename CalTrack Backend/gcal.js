@@ -41,6 +41,9 @@ const end = moment().format("YYYY-MM-DDT23:59:00Z")
 getEvents(start, end)
     .then((res) =>{
         console.log(res);
+        // const summary = res.summary
+        // const startTime = res.start.dateTime
+        // const endTime = res.end.dateTime
     })
     .catch((err) => {
         console.log(err);
